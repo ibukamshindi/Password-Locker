@@ -18,12 +18,12 @@ class TestCredentials(unittest.TestCase) :
         self.assertEqual(self.new_credentials.account_name,"Twitter")
         self.assertEqual(self.new_credentials.account_password,"12345")
 
-    def test_save_user(self):
+    def test_save_credentials(self):
         """
-        test_save_user test case to test if credentials details are saved successfully
+        test_save_credential test case to test if credentials details are saved successfully
         """
         self.new_credentials.save_credentials()
-        self.assertEqual(len(Credentials.credentials_list), 1)
+        self.assertEqual (len(Credentials.credentials_list),1)
 
 if __name__ == "__main__":
       unittest.main()
