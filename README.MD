@@ -3,12 +3,12 @@
 #### By **{Patrick Ibuka Mshindi}**
 ## Description
 On Average, a person has at least 7 different accounts he or she has signed into, be it email, social media, entertainment or job portal accounts. It becomes really hard to remember all those passwords. The application will manage your passwords and even genrate new passwords for you. The user should be able to 
-* create a password locker account with my details, a login username and password.
-* store my already existing account credentials in the application. 
+* create a password locker account with their details, a login username and password.
+* store an already existing account credentials in the application. 
 * create new account credentials in the application. 
-* have the option of putting in a password that I want to use for the new credential account. 
-* view my various account credentials and their passwords in the application.
-* delete a credentials account that I no longer need in the application.
+* have the option of putting in a password that they want to use for the new credential account. 
+* view their various account credentials and passwords in the application.
+* delete a credentials account that they no longer need.
 ## Setup/Installation Requirements
 * The project was created using
 * Python3.8 
