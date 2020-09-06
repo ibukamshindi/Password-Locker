@@ -10,12 +10,12 @@ On Average, a person has at least 7 different accounts he or she has signed into
 * view my various account credentials and their passwords in the application.
 * delete a credentials account that I no longer need in the application.
 ## Setup/Installation Requirements
-* The project made was created using
-* Python 
+* The project was created using
+* Python3.8 
 ## Known Bugs
 At the moment there are no known issues.
 ## Technologies Used
-The project made us of classes, docstrings to document methods and functions ad test classes .
+The project made us of classes, docstrings to document methods and functions and test classes .
 ## Support and contact details
 If you want to contact me reach me at 123@gmail.com
 ## Link to live site:
