@@ -15,3 +15,11 @@ class Credentials:
         
         """
         Credentials.credentials_list.append(self)
+
+    def delete_credentials(self):
+
+        """
+        Method which deletes a particular credential
+        
+        """
+        Credentials.credentials_list.remove(self)
