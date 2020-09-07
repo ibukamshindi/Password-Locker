@@ -20,6 +20,13 @@ class Credentials:
 
         """
         Method which deletes a particular credential
-        
+
         """
         Credentials.credentials_list.remove(self)
+    
+    @classmethod
+    def display_credentials(cls):
+        """
+        Method which displays all current credentials
+        """
+        return cls.credentials_list   

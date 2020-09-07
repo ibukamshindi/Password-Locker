@@ -40,7 +40,7 @@ class TestCredentials(unittest.TestCase) :
         new_test_credential.save_credentials()
         self.assertEqual(len(Credentials.credentials_list), 2)
 
-    def test_delete_credential(self):
+    def test_delete_credentials(self):
         """
         test_delete_credential to test if we can remove credential from list
         """
@@ -51,6 +51,12 @@ class TestCredentials(unittest.TestCase) :
 
         self.new_credentials.delete_credentials()
         self.assertEqual(len(Credentials.credentials_list),1)
+    
+    def test_display_all_credentials(self):
+        """
+        TestCase to test whether all contacts can be displayed
+        """
+        self.assertEqual(Credentials.display_credentials(), Credentials.credentials_list)
 
 if __name__ == "__main__":
     unittest.main()
